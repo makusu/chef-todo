@@ -1,0 +1,9 @@
+{
+    "run_list": [
+        ["recipe[apt]"],
+        ["recipe[redis]"],
+        ["recipe[php-fpm]"],
+        ["recipe[code]"],
+        ["recipe[nginx]"]
+    ]
+}
